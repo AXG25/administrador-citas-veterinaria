@@ -90,7 +90,7 @@ const Formulario = ({ pacientes, setPacientes , paciente, setPaciente}) => {
         <div className="mb-5">
           <label
             htmlFor="mascota"
-            className="block text-gray-700 uppercase font-bold"
+            className="block text-gray-700 font-bold"
           >
             Nombre Mascota
           </label>
@@ -108,7 +108,7 @@ const Formulario = ({ pacientes, setPacientes , paciente, setPaciente}) => {
         <div className="mb-5">
           <label
             htmlFor="propietario"
-            className="block text-gray-700 uppercase font-bold"
+            className="block text-gray-700 font-bold"
           >
             Nombre Propietario
           </label>
@@ -126,7 +126,7 @@ const Formulario = ({ pacientes, setPacientes , paciente, setPaciente}) => {
         <div className="mb-5">
           <label
             htmlFor="email"
-            className="block text-gray-700 uppercase font-bold"
+            className="block text-gray-700 font-bold"
           >
             Email
           </label>
@@ -144,7 +144,7 @@ const Formulario = ({ pacientes, setPacientes , paciente, setPaciente}) => {
         <div className="mb-5">
           <label
             htmlFor="alta"
-            className="block text-gray-700 uppercase font-bold"
+            className="block text-gray-700 font-bold"
           >
             Alta
           </label>
@@ -161,7 +161,7 @@ const Formulario = ({ pacientes, setPacientes , paciente, setPaciente}) => {
         <div className="mb-5">
           <label
             htmlFor="sintomas"
-            className="block text-gray-700 uppercase font-bold"
+            className="block text-gray-700 font-bold"
           >
             Sintomas
           </label>
@@ -171,7 +171,7 @@ const Formulario = ({ pacientes, setPacientes , paciente, setPaciente}) => {
             placeholder="Describe los sintomas"
             value={sintomas}
             onChange={(e) => setSintomas(e.target.value)}
-            className="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
+            className="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md resize-none"
           />
         </div>
 
